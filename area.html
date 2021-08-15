@@ -9,9 +9,7 @@
 <body>
     <a class="link" href="./index.html">Go back</a>
     <h1>Calculate Area</h1>
-    <br>
-    <h2>Select an option below as per the data you have for a triangle</h2>
-
+<!--
     <div id="div-area-option">
 
     <input type="radio" name="id-Area-type" name="fav_language" value="1">
@@ -21,8 +19,8 @@
     <input type="radio" name="id-Area-type" name="fav_language" value="3">
     <label for="id-Area-type">If you have length of 2 sides and included angle</label>
     </div>
-
-    <div id="Area-type" style="display: none;">
+-->
+    <div id="Area-type">
 
         <label for="base">base = </label>
         <input type="number" id="base">
@@ -31,7 +29,7 @@
         <input type="number" id="height">
 
     </div>
-
+<!--
     <div id="Area-type" style="display: none;">
 
         <label for="id-sideA">a = </label>
@@ -57,7 +55,8 @@
         <input type="number" id="id-angel">
 
     </div>
-
+-->
+    <button id="calculateArea">Calculate</button>
     <div id="ValidationMessage"></div>
 
     <div id="output">
@@ -67,8 +66,7 @@
         </div>
     </div>
 
-
-
+    <script src="./js-files/area.js"></script>
 
     
 </body>
