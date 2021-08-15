@@ -7,6 +7,69 @@
     <title>Fun with triangles | Area</title>
 </head>
 <body>
+    <a class="link" href="./index.html">Go back</a>
+    <h1>Calculate Area</h1>
+    <br>
+    <h2>Select an option below as per the data you have for a triangle</h2>
+
+    <div id="div-area-option">
+
+    <input type="radio" name="id-Area-type" name="fav_language" value="1">
+    <label for="id-Area-type">If you have base and height length</label><br>
+    <input type="radio" name="id-Area-type" name="fav_language" value="2">
+    <label for="id-Area-type">If you have length of 3 sides</label><br>
+    <input type="radio" name="id-Area-type" name="fav_language" value="3">
+    <label for="id-Area-type">If you have length of 2 sides and included angle</label>
+    </div>
+
+    <div id="Area-type" style="display: none;">
+
+        <label for="base">base = </label>
+        <input type="number" id="base">
+
+        <label for="height">height = </label>
+        <input type="number" id="height">
+
+    </div>
+
+    <div id="Area-type" style="display: none;">
+
+        <label for="id-sideA">a = </label>
+        <input type="number" id="id-sideA">
+
+        <label for="id-sideB">b = </label>
+        <input type="number" id="id-sideB">
+
+        <label for="id-sideC">c = </label>
+        <input type="number" id="id-sideC">
+
+    </div>
+
+    <div id="Area-type" style="display: none;">
+
+        <label for="id-sideB-type3">b = </label>
+        <input type="number" id="id-sideB-type3">
+
+        <label for="id-sideC-type3">c = </label>
+        <input type="number" id="id-sideC-type3">
+
+        <label for="id-angel">∠A(deg)= </label>
+        <input type="number" id="id-angel">
+
+    </div>
+
+    <div id="ValidationMessage"></div>
+
+    <div id="output">
+        <h1>Area will be calculated here-</h1>
+        <div id="result">
+
+        </div>
+    </div>
+
+
+
+
     
 </body>
 </html>
